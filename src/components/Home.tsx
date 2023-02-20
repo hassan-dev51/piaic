@@ -25,7 +25,7 @@ const Home = () => {
       <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
-        transition={{ duration: 2, ease: "easeIn" }}
+        transition={{ duration: 1, ease: "easeIn" }}
         className="md:w-1/2 w-full flex justify-center"
       >
         <Image src={vector} alt="president" />
@@ -40,7 +40,7 @@ const Home = () => {
         <motion.h1
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
-          transition={{ duration: 2, ease: "easeIn" }}
+          transition={{ duration: 1, ease: "easeIn" }}
           className="md:text-5xl text-2xl tracking-[7px]"
         >
           Presidential Initiative
@@ -49,7 +49,7 @@ const Home = () => {
         <motion.p
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
-          transition={{ duration: 2, ease: "easeIn" }}
+          transition={{ duration: 1, ease: "easeIn" }}
           className="md:text-xl text-sm"
         >
           The mission of PIAIC is to reshape Pakistan by revolutionizing
