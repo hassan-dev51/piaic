@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { program } from "@/utils/program";
 import Link from "next/link";
 import { fadeIn, staggerContainer, textVariant, zoomIn } from "@/utils/motion";
+import Tags from "./Tags";
 const Programs = () => {
   return (
     <div className="mx-6 mt-6">
@@ -48,6 +49,7 @@ const Programs = () => {
           </Link>
         ))}
       </motion.div>
+      <Tags />
     </div>
   );
 };

@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import vector from "../assets/Vector 4.png";
 import { staggerContainer, textContainer, textVariant2 } from "@/utils/motion";
+import Tags from "./Tags";
 
 const TypingText = (props: { title: string }) => (
   <motion.p variants={textContainer}>
